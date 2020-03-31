@@ -10,7 +10,7 @@ def signatures = """
                   https://psikon.org
 """
 
-def call() {
+def call(currentBuild, env) {
   script {
     def subject = ""
     def body    = ""
